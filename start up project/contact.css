@@ -1,0 +1,298 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.ride:hover{
+    background-color: black;
+}
+.ride{
+    flex-wrap: wrap;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 100px;
+    list-style: none;
+}
+.ride ul li{
+    list-style: none;
+}
+.nav-log{
+    background-image: url(images/richard-horvath-_nWaeTF6qo0-unsplash.jpg); 
+    background-color: white;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    min-height: 100vh;
+}
+.nav-bar{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+.nav-bar:hover{
+    background-color: rgb(12, 67, 112);
+    padding: 12px;
+}
+.nav-bar ul{
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    list-style: none;
+    flex-basis:31%;
+    padding: 0 20px;
+    width: 530px;
+}
+.nav-bar ul li a{
+    color: white;
+    text-decoration: none;
+}
+.dropdown-content{
+    display: none;
+    backdrop-filter: blur(10px) saturation(30%);
+    margin-left: -35px;
+    position: absolute;
+    background-color: white;
+    min-width: 100px;
+    min-height: 100px;
+    border-radius: 8px 10px 8px 10px;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.2);
+    border-right: 1px solid white;
+}
+.dropdown-content a{
+    color: black;
+    padding: 10px 6px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+    backdrop-filter: blur(3px);
+}
+#bvbvbv{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    font-size: 12px;
+    margin-top: 10px;
+}
+#bvbvbv:hover{
+    color:  rgb(118, 84, 141);
+}
+#srsrsr{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    font-size: 12px;
+    border-top: solid black;
+    
+}
+#srsrsr:hover{
+    color: rgb(118, 84, 141);
+}
+.dropdow-content{
+    display: none;
+    flex-wrap: wrap;
+    backdrop-filter: blur(10px) saturation(30%);
+    margin-left: -35px;
+    position: absolute;
+    background-color: white;
+    min-width: 100px;
+    min-height: 100px;
+    border-radius: 8px 10px 8px 10px;
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    z-index: 1;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.2);
+    border-right: 1px solid white;
+}
+/*.dropdown-content li a{
+
+}*/
+.dropdow-content a{
+    color: black;
+    padding: 10px 6px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+.dropdow:hover .dropdow-content{
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+    backdrop-filter: blur(3px);
+}
+#nba{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    font-size: 12px;
+    margin-top: 10px;
+}
+#nba:hover{
+    color:  rgb(118, 84, 141);
+}
+#nbc{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    font-size: 12px;
+    border-top: solid black;
+    
+}
+#nbc:hover{
+    color: rgb(118, 84, 141);
+}
+.yyy{
+    border-bottom: solid rgb(98, 98, 175);
+    background: none;
+    text-decoration: none;
+
+}
+.yyy a{
+    text-decoration: none;
+    color: white;
+    
+}
+.yyy:hover{
+    transition: 0.2s;
+    border-color: white; 
+}
+#cona{
+    border-bottom: solid white;
+}
+.con{
+    width: 100%;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-size: 300%;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 210px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.form-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-div-major{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.form-div1{
+
+    width: 50%;
+    background-color: #F6F6F6;
+    margin-top: 350PX;
+    margin-left: 25%;
+}
+.form-div1 form, .form-div1 .input-divs, .input-divs input, .input-divs textarea{
+    width: 100%;   
+    text-align: center;
+    border:  black;
+} 
+.form-div1 input{
+    margin-bottom: 30px;
+    background-color: #F6F6F6;
+    padding: 15px;
+    outline: none;
+    border-bottom: solid rgb(12, 67, 112);
+    /* box-shadow: 2px 2px 2px #c4c4c4; */
+}
+.p-1{
+    font-family: sans-serif;
+    margin-top: 60px;
+    border-bottom: solid rgb(12, 67, 112);
+    font-style: normal;
+    font-weight: 600;
+    background-color: rgb(172, 169, 169);
+    font-size: 19px;
+    line-height: 70px;
+    letter-spacing: 0.08em;   
+}
+.email-12{
+    width: 234px;
+    height: 234px;
+    padding-top: 120px;
+}
+.address-1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 280px;
+    padding-bottom: 30px;   
+}
+.Contacts-1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 163px;
+    margin-right: 130px;
+    padding-bottom: 30px;
+}
+.email-1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 55.9%;
+    margin-right: 116px;
+    padding-bottom: 30px;
+    
+}
+.submit-button{
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: none;
+    background-color: #1a4d8b;
+    color: #F6F6F6;
+}
+.form-div1 textarea{
+    border: none;
+}
+.map{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 40%;
+    margin-top: -180px;
+}
+.ema{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 400px;
+    background-color: white;
+    padding: 55px 0 55px 0;
+    list-style: none;
+    text-decoration: none;
+}
+.num{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#tel{
+    margin-top: 200px;
+    color: white;
+    font-size: 50px;
+}
+#homa:hover, #downlow:hover, #manna:hover, #from:hover, #heaven:hover{
+    border-bottom: solid black;
+}

@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.ride:hover{
+    background-color: black;
+}
+.ride{
+    flex-wrap: wrap;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 100px;
+    list-style: none;
+}
+.ride ul li{
+    list-style: none;
+}
+.nav-log{
+    background-image: url(images/richard-horvath-_nWaeTF6qo0-unsplash.jpg); 
+    background-color: white;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    min-height: 100vh;
+}
+.nav-bar{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+.nav-bar:hover{
+    background-color: rgb(12, 67, 112);
+    padding: 12px;
+}
+.nav-bar ul{
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    list-style: none;
+    flex-basis:31%;
+    padding: 0 20px;
+    width: 530px;
+}
+.nav-bar ul li a{
+    color: white;
+    text-decoration: none;
+}
+#bloga{
+    border-bottom: solid white;
+}
+.yyy{
+    border-bottom: solid rgb(98, 98, 175);
+    background: none;
+    text-decoration: none;
+
+}
+.yyy a{
+    text-decoration: none;
+    color: white;
+    
+}
+.yyy:hover{
+    transition: 0.2s;
+    border-color: white; 
+}
+.blog{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+    padding-bottom: 100px;
+    
+}
+.pp{
+    margin-top: 100px;
+    border: none;
+    margin-left: 16%;
+    width: 70%;
+}
+.txt-box{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 250px;
+    text-align: center;
+    color: rgb(231, 223, 223);
+}
+#ww{
+    align-items: center;
+    margin-top: 60px;
+    font-size: 130%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#mm{
+    font-size: 200px;
+}
+#bbb{
+    text-align: center;
+    color: rgb(155, 158, 199);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+.chech{
+    width: 100%;
+    padding-top: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: white;
+}
+#oo{
+    margin-top: 40px;
+    text-align: center;
+    margin-left: 25%;
+    width: 50%;
+    font-size: 15px;
+}
+#op{
+    margin-top: 40px;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    font-size: 15px;
+}
+.purple{
+    margin-top: 100px;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    background-color: rgb(119, 126, 196)
+}
+#gr{
+    margin-top: 40px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    color: white;
+}
+#ar{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 45px;
+    color: white;
+    margin-top: 40px;
+}
+#di{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-top: 60px;
+    color: white;
+}
+.button{
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background: white;
+    border: solid white;
+    color: black;
+    text-decoration: none;
+    font-family: cursive;
+    padding: 10px 35px 10px 35px;
+    cursor: pointer;
+}
+.button:hover{
+    border-color: white;
+    background-color: rgb(119, 126, 196);
+}
+#ch{
+    display: none;
+}
+#ch:checked ~ .content{
+    display: block;
+}
+#ch:checked ~ label{
+    display: none;
+}
+.content{
+    display: none;
+}
+label{
+    display: inline-block;
+    margin-left: 47%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    color: #fff;
+    background-color: rgb(119, 126, 196);
+    padding: 3px 13px;
+    margin: 12px;
+
+}
